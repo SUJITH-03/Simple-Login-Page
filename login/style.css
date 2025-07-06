@@ -6,6 +6,7 @@ body{
       align-items: center;
       height: 100vh;
      background-image: url(1183450.jpg);
+     background-size:cover;
 }
 .login-container{
     background-color: rgba(254, 254, 254, 0.279);
