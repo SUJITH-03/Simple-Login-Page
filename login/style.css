@@ -1,0 +1,66 @@
+
+body{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     background-image: url(1183450.jpg);
+}
+.login-container{
+    background-color: rgba(254, 254, 254, 0.279);
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      
+
+    
+}
+.login-container h2{
+   text-align: center;
+   margin :10px;
+   padding: 30px;
+   font-size:40px;
+   color: rgb(45, 17, 36);
+    
+}
+.login-container input[type="text"],.login-container input[type="password"]{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border: 0;
+}
+.submit{
+      width: 100%;
+      padding: 20px;
+      background-color: #37a437;
+      color: white;
+      border: 0cap;
+      border-radius: 100px;
+      cursor: pointer;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* This adds space between buttons */
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #4bb2df;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.word{
+    color: #f2f4f2;
+    font-size: large;
+    margin:0px;
+    padding: 0px;
+}
